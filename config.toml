@@ -214,7 +214,7 @@ defaultContentLanguage = "en"
     
     [params.contact.location]
       enabled = true
-      address = "Dental student at the Faculty of Dentistry Zagazig University"
+      address = "Faculty of Dentistry Zagazig University"
       latitude = "30.585070727964393"
       longitude = "31.487296675825437"
 
