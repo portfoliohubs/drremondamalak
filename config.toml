@@ -207,10 +207,10 @@ defaultContentLanguage = "en"
   [params.contact]
     phone = "+201270014506"
     whatsapp = "+201270014506"
-    email = "michaelnabilofficial1@gmail.com"
-    instagram = "https://www.instagram.com/michaelnabilofficial/"
-    facebook = "https://www.facebook.com/Micky1000000"
-    linkedin = "https://linkedin.com/in/yourprofile"
+    email = ""
+    instagram = ""
+    facebook = ""
+    linkedin = ""
     
     [params.contact.location]
       enabled = true
