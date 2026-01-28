@@ -1,0 +1,328 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Remonda Malak"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Remonda Malak"
+    tagline = "Dental student"
+    graduation = "Graduated 2026 - Faculty of Dentistry"
+    profile_image = ""
+    profile_image_alt = "Profile photo of Dr. Remonda Malak"
+    
+    [params.hero.current_position]
+      role = "Dental student"
+      clinic = "Dental student at the Faculty of Dentistry Zagazig University"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Remonda Malak"
+    doctor_name_ar = "د. ريموندا ملاك"
+    site_name = "Dr. Remonda Malak"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Remonda Malak",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. ريموندا ملاك",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور ريموندا ملاك",
+      "عيادة ريموندا ملاك",
+      "عيادة اسنان الشرقية",
+      "ريموندا ملاك اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Endodontics",
+      "Fixed & removable prosthodontics",
+      "Oral Surgery",
+      "Cosmetic Dentistry",
+      "Periodontics"
+    ]
+    
+    digital = [
+      "Dental Photography",
+      "Photo Editing",
+      "PowerPoint",
+      "Case Documentation & Reporting",
+      "Digital Patient Records Management",
+      "Online Dental Research"
+    ]
+    
+    soft = [
+      "Effective Communication",
+      "Patient Management",
+      "Time Management",
+      "Team Collaboration",
+      "Attention to Detail",
+      "Problem Solving",
+      "Decision Making",
+      "Stress Management",
+      "Continuous Learning"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Zagazig University Faculty of Dentistry"
+    graduation_year = "2026"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2021"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2026"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative and esthetics"
+    category_ar = "الحشو العادى والتجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/88ac260c-b096-43f9-b1c9-6562cab78c95"
+      alt = "Composite restoration for deep cavity class I"
+      description = "Composite restoration for deep cavity class I"
+      alt_ar = "حشو كومبوزيت لتجويف عميق"
+      description_ar = "حشو كومبوزيت لتجويف عميق"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis (fixed & Removable)"
+    category_ar = "تركيبات ثابتة ومتحركة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/675de33a-263a-4f72-8d74-329c5783178a"
+      alt = "Bridge for missed upper premolar"
+      description = "Bridge for missed upper premolar"
+      alt_ar = "تركيب جسر لتعويض ضرس ضاحك علوي مفقود"
+      description_ar = "تركيب جسر لتعويض ضرس ضاحك علوي مفقود"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/8d9790d7-4370-4af2-a0c3-ceeba6290e80"
+      alt = "Complete removable denture"
+      description = "Complete removable denture"
+      alt_ar = "تركيب طقم كامل متحرك"
+      description_ar = "تركيب طقم كامل متحرك"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصب(علاج الجذور)"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/9de9a889-a2ce-479d-8c8d-9965ab98c6a1"
+      alt = "Endodontic treatment for upper lateral incisor"
+      description = "Endodontic treatment for upper lateral incisor"
+      alt_ar = "حشو عصب للقاطع الجانبى العلوى"
+      description_ar = "حشو عصب للقاطع الجانبى العلوى"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201270014506"
+    whatsapp = "+201270014506"
+    email = "michaelnabilofficial1@gmail.com"
+    instagram = "https://www.instagram.com/michaelnabilofficial/"
+    facebook = "https://www.facebook.com/Micky1000000"
+    linkedin = "https://linkedin.com/in/yourprofile"
+    
+    [params.contact.location]
+      enabled = true
+      address = "Dental student at the Faculty of Dentistry Zagazig University"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. ريموندا ملاك"
+    tagline = "طالبة طب اسنان"
+    graduation = "تخرج 2026 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور ريموندا ملاك"
+    
+    [params.ar.hero.current_position]
+      role = "طالبة طب اسنان"
+      clinic = "طالبه فى كليه طب اسنان جامعة الزقازيق"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحه",
+      "حشو عصب",
+      "حشو تجميلى",
+      "تركيبات ثابته",
+      "تركيبات متحركه",
+      "علاج امراض اللثه"
+    ]
+    
+    digital = [
+      "التصوير الفوتوغرافي للأسنان",
+      "تحرير الصور الطبية",
+      "إعداد وتصميم العروض التقديمية (PowerPoint)",
+      "توثيق وكتابة الحالات السريرية",
+      "البحث الطبى"
+    ]
+    
+    soft = [
+      "التواصل الفعّال",
+      "إدارة المرضى",
+      "إدارة الوقت",
+      "العمل الجماعي",
+      "الانتباه للتفاصيل",
+      "حل المشكلات",
+      "اتخاذ القرار",
+      "ادارة الضغوط",
+      "التطوير المستمر"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة الزقازيق - كلية طب الأسنان"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2021 الدخول الى الكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2026 التخرج من الكليه"  
+
+  [params.ar.contact.location]
+    address = "123 الشارع الرئيسي، المدينة، البلد"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
